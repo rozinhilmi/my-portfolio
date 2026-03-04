@@ -60,26 +60,24 @@ export const Index = () => {
           <Text fontSize={"32px"} as={"b"} textAlign={"center"}>
             About Me
           </Text>
-          <List.Item textAlign={"justify"} color={"gray.600"}>
-            I am a Software Engineer with 3 years of experience in application development.
-          </List.Item>
-          <List.Item textAlign={"justify"} color={"gray.600"}>
+          <List.Item color={"gray.600"}>I am a Software Engineer with 3 years of experience in application development.</List.Item>
+          <List.Item color={"gray.600"}>
             I specialize in developing applications, Database Management Systems (DBMS), and both Front-End and Back-End Development.
           </List.Item>
-          <List.Item textAlign={"justify"} color={"gray.600"}>
+          <List.Item color={"gray.600"}>
             Additionally, I am skilled in deploying applications to servers and ensuring their optimal performance.
           </List.Item>
-          <List.Item textAlign={"justify"} color={"gray.600"}>
+          <List.Item color={"gray.600"}>
             Throughout my career, I have applied my expertise across various industries, including software houses, property companies, construction
             companies, and large-scale publicly listed companies (Tbk).
           </List.Item>
-          <List.Item textAlign={"justify"} color={"gray.600"}>
+          <List.Item color={"gray.600"}>
             My focus is on building modern web applications end-to-end, from design and development to deployment.
           </List.Item>
-          <List.Item textAlign={"justify"} color={"gray.600"}>
+          <List.Item color={"gray.600"}>
             I also possess strong teamwork skills, collaborating effectively to deliver innovative and efficient technology solutions.
           </List.Item>
-          <List.Item textAlign={"justify"} color={"gray.600"}>
+          <List.Item color={"gray.600"}>
             I am eager to continue deepening my knowledge in web development and seek further opportunities to broaden my experience in the
             professional world.
           </List.Item>
@@ -87,7 +85,7 @@ export const Index = () => {
       </Stack>
 
       <Stack alignItems={"center"} width={"100%"} maxWidth={"1000px"}>
-        <Text fontSize={"32px"} as={"b"} marginTop={"20px"}>
+        <Text fontSize={"32px"} as={"b"} marginTop={"20px"} textAlign={"center"}>
           Public Project Experience
         </Text>
         <Grid templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }} gap="6">
