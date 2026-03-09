@@ -35,7 +35,7 @@ export const Index = () => {
           </Text>
           <Text fontSize={"lg"}>Full Stack Software Engineer</Text>
           <Button marginTop={"20px"}>
-            <a href="/CV.pdf" download>
+            <a href="/CV Rozin Hilmi Annabhan.pdf" download>
               Download CV
             </a>
           </Button>
